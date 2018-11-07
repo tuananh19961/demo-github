@@ -1,0 +1,63 @@
+
+.navbar { 
+	margin-bottom: 0;
+}
+.menu{
+	border-radius: 0;
+}
+.avata-small{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	border: 1px solid #f0ad4e;
+}
+
+.navbar-right{
+	padding: 0;
+	margin-top: 10px;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+.mt-5{
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.navbar-right li a{
+	padding: 0 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #5383d3;
+}
+
+.username{
+	color: #5383d3;
+}
+
+.navbar-right .dropdown-menu li a{
+	cursor: pointer;
+	padding: 10px 15px;
+} 
+.navbar-brand{
+    color: #fff!important;
+    font-size: 33px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+
+.navbar-brand span {
+    color: #ff5252;
+}
+
+

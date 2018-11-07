@@ -1,0 +1,39 @@
+{
+  "name": "firebase-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.5.5",
+    "lodash": "^4.17.11",
+    "randomstring": "^1.1.5",
+    "react": "^16.5.2",
+    "react-chunk": "^7.3.0",
+    "react-circular-progressbar": "^1.0.0",
+    "react-dom": "^16.5.2",
+    "react-images-upload": "^1.2.3",
+    "react-notify-toast": "^0.5.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-scrollable-feed": "^1.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

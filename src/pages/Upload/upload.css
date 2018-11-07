@@ -1,0 +1,32 @@
+.inputField{
+	padding: 30px 0;
+}
+.inputField .form-group{
+	display: inline-block;
+	text-align: center;
+}
+.item-img{
+	overflow: hidden;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.item-img a img{
+	object-fit: cover;
+	width: 100%; padding: 7px 0;
+}
+.Galery{
+	padding: 100px 0;
+	overflow: hidden;
+	webkit-column-count: 3 ; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+@media (max-width: 500px) {
+	.Galery	 {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	}
+}
